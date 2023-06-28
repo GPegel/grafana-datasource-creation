@@ -1,6 +1,6 @@
 FROM python:3.8.16
 
-ENV GRAFANA_TOKEN="glsa_IBdAezrDDpHqbQM8cKBw4OHt1WKnM8i3_0806515a"
+ENV GRAFANA_TOKEN="place_your_token_here"
 ENV GRAFANA_DATASOURCE_URL="http://host.docker.internal:3000"
 
 WORKDIR /app
